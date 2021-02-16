@@ -13,7 +13,7 @@ $dotenv = new Dotenv();
 $dotenv->loadEnv(__DIR__.'/.env');
 
 // Le nom de votre projet
-set('application', 'tuto-deployer');
+set('application', 'antohakalava');
 
 // Hosts
 host($_ENV['DEPLOYER_REPO_HOST'])
